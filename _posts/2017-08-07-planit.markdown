@@ -1,0 +1,7 @@
+---
+layout: default
+title:  PlanIt
+img: planit.png
+link: https://github.com/eecs394-fall15/plan_It
+---
+PlanIt is a hybrid mobile app that helps a traveler get suggestions and tips for travel plans from locals in the area or other users who are in the PlanIt app community. The traveler can then customize his itinerary by picking from the suggestions and tips.
