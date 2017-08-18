@@ -1,0 +1,34 @@
+    <!-- About Section -->
+    <section id="projects" class="project-heading">
+        <h1>
+            Portfolio
+        </h1>
+        {% for post in site.posts %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'even' %}
+            <div class="row project-section">
+                <div class="container">
+                    <div class="col-lg-5 col-sm-6">
+                        <a class="project-title" target="_blank" href="{{ post.link }}">{{ post.title }}</a>
+                        <div>{{ post.content }}</div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img src="img/{{ post.img }}" class="project-img-right">
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="row project-section">
+                <div class="container">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <a class="project-title" target="_blank" href="{{ post.link }}">{{ post.title }}</a>
+                        <div>{{ post.content }}</div>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img src="img/{{ post.img }}" class="project-img">
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </section>
