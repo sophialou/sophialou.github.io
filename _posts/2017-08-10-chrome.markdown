@@ -1,0 +1,7 @@
+---
+layout: default
+title:  Chrome Debugging
+img: chrome.jpg
+link: https://engineering.salesforce.com/my-summer-internship-setting-out-on-a-treasure-hunt-with-the-performance-engineering-team-344fc39bab22
+---
+As part of my summer internship with the Salesforce Sales Cloud Performance Engineering team, I investigated why long blocks of CPU activity was showing up as miscellaneous resources on the Chrome developer tools timeline.

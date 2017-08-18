@@ -1,0 +1,7 @@
+---
+layout: default
+title:  Juglapp.io
+img: jugl.png
+link: https://www.juglapp.io/
+---
+Juglapp.io allows students to better take control of their job search process. Collect job apps from any company website or job board with the Chrome extension. Track apps within the Kanban-styled dashboard to better manage and visualize progress and todos. Ensure that no job app slips through the cracks.
