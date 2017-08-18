@@ -1,0 +1,7 @@
+---
+layout: default
+title:  Computer Graphics
+img: graphics.png
+link: https://github.com/sophialou/graphics
+---
+WebGL programs in JavaScript to depict animated 2D and 3D objects that respond to user mouse and keyboard inputs.
